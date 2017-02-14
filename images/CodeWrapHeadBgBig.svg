@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1074px" height="541px" viewBox="0 0 1074 541" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 6 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="61.99096%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2A44F2" offset="0%"></stop>
+            <stop stop-color="#35A1FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-6-Copy" fill="url(#linearGradient-1)">
+            <g id="Oval">
+                <path d="M537,541 C833.576911,541 1074,419.893025 1074,270.5 C1074,121.106975 833.576911,0 537,0 C240.423089,0 0,121.106975 0,270.5 C0,419.893025 240.423089,541 537,541 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

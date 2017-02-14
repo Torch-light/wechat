@@ -1,0 +1,40 @@
+/**app.wxss**/
+page {
+  background-color: #fbf9fe;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.pagging{
+  height: 20px;
+  width: 100%;
+}
+.logo-box{
+  width: 5rem;
+  height: 5rem;
+  background-image:url(../images/logo.png);
+  margin:auto;
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+.head{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+}
+.head .title{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+}
+.rtext{
+   
+}

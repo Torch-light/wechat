@@ -1,0 +1,15 @@
+<view class="main">
+
+    <view class="body">
+          
+
+    </view>
+    <view class="foot">
+ 
+        <view class="button-wrapper">
+           <navigator class="button"  url="addTitle/addTitle" hover-class="navigator-hover">添加抬头</navigator>
+        </view>
+   
+      
+    </view>
+</view>

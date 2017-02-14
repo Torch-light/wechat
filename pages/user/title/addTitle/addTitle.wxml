@@ -1,0 +1,51 @@
+<view class="main">
+
+<view class="body">
+     <view class="section-head-ul">
+        <ul>
+        <li class="oneNode active">普票</li>
+        <li>专票</li>
+        </ul>
+    </view>
+    <view class="section-input">
+        <span >抬头：</span>
+        <input class="input"  bindinput="bindKeyInput" placeholder="请输入抬头" auto-focus/>
+    </view>
+    <view class="section-input">
+        <span >电话：</span>
+         <input class="input" bindinput="bindKeyInput"  placeholder="请输入电话"/>
+    </view>
+     <view class="section-input">
+        <span >税号：</span>
+        <input class="input"  bindinput="bindTex" placeholder="请输入税号"/>
+       
+    </view>
+     <view class="section-input">
+        <span >地址：</span>
+        <input  class="input" bindinput="bindAddress"  placeholder="请输入地址"/>
+    </view>
+     <view class="section-input">
+        <span>开户行：</span>
+        <input class="input" bindinput="bindBankDeposit"  placeholder="请输入开户行"/>
+    </view>
+     <view class="section-input">
+        <span >银行卡号：</span>
+        <input  class="input" bindinput="bindBankAccount"  placeholder="请输入银行卡号"/>
+    </view>
+        <checkbox-group bindchange="checkboxChange">
+            <label class="checkbox">
+            <checkbox value="{{checkedInfo}}" checked="{{checked}}"/>{{checkedInfo}}
+            </label>
+        </checkbox-group>
+   
+    </view>
+    <view class="foot">
+
+        <view class="button-wrapper">
+             <button bindtap="addTitle">保存
+             </button>
+        </view>
+
+      
+    </view>
+</view>

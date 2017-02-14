@@ -1,0 +1,117 @@
+/*头部*/
+
+.top{
+    position: absolute;
+    left:0px;
+    right: 0px;
+    height: 35px;
+    background-color:#fff;
+    border: 0px;
+    box-shadow:1px 0.1px 0.1px #292929;
+}
+.topRight{
+    position: absolute;
+    right: 0px;
+    height: 35px;
+    background-color:#fff;
+    border: 0px;
+    box-shadow:1px 0.1px 0.1px #292929;
+    left: 178px;
+}
+.topImg .img{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*//侧边*/
+
+.sidebar{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    bottom: 0px;
+    width: 178px;
+    border-right: 0.1px solid #ccc;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 45px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 10px;
+}
+.sidebar{
+    /*display: none;*/
+}
+
+
+.box{
+    padding-left: 20px;
+    padding-top: 10px;
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+   	border-bottom:1px solid #ccc;
+    font-size:16px;
+    line-height: 32px;
+    background-color: #fcf7fc;
+    opacity: 0.8;
+}
+.box-session-text{
+    
+    -moz-box-flex:10;
+    -webkit-box-flex:10;
+    box-flex:10;
+ 
+}
+.box-session-l-img{
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+
+}
+.box-session-r-img{
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+
+}
+.box-img{
+    padding-left:0;
+    width: 16px;
+    height: 16px;
+}
+
+
+/*//身体*/
+.content{
+    position: absolute;
+    left: 0px;
+    top:36px;
+    right:0;
+    bottom: 0;
+}
+
+.contentRight{
+    position: absolute;
+    top:36px;
+    right:0;
+    bottom: 0;
+    left: 178px;
+}
+
+

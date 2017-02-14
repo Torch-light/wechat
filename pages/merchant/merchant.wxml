@@ -1,0 +1,42 @@
+<view class="{{topClass}}">
+  <span class="topImg">
+    <image  bindtap="openLeft" src="{{head.img}}" class="img"></image>
+ </span> 
+</view>
+<view class="sidebar" wx:if="{{siderbar}}">
+  <div bindtap="hide">
+    <view bindtap="bindViewTap" class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    <view class="box" wx:for="{{user}}">
+      <view class="box-session-l-img">
+        <image class="box-img" src="{{item.img}}" mode="{{item.mode}}"></image>
+      </view>
+      <view class="box-session-text">
+        <navigator url="{{item.pages}}" hover-class="navigator-hover">{{item.name}}</navigator>
+      </view>
+      <view class="box-session-r-img">
+        <image class="box-img" src="/images/arrowright.png" mode="{{item.mode}}"></image>
+      </view>
+    </view>
+
+    <view class="box" >
+      <view class="box-session-l-img">
+        <image class="box-img" src="../../images/share.png" mode="{{item.mode}}"></image>
+      </view>
+      <view class="box-session-text" >
+        <view bindtap="redirectTo">切换到用户</view>
+      </view>
+      <view class="box-session-r-img">
+        <image class="box-img" src="/images/arrowright.png" mode="{{item.mode}}"></image>
+      </view>
+    </view>
+  </div>
+</view>
+<view class="{{contentClass}}" bindtap="hide">
+  <view class="body">这是身体</view>
+</view>

@@ -1,0 +1,12 @@
+@import "../index.wxss";
+
+
+.empty{
+    text-align: center;
+}
+.empty .emptyToast{
+    /*position: absolute;*/
+    /*top:40%;*/
+     margin-top: 45%;
+     display: inline-block;
+}

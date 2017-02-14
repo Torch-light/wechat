@@ -1,0 +1,14 @@
+<view class="main">
+    <view class="head">
+       <view class="title"> {{title}}</view>
+       <view class="rtext"> {{rtext}}</view>
+    </view>
+    <view class="pagging">
+    </view>
+    <view class="logo-box">
+  
+    </view>
+    <view class="body">
+               
+    </view>
+</view>
